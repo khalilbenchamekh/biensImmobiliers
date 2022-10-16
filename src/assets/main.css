@@ -1,0 +1,42 @@
+@import "./base.css";
+
+#app {
+  font-weight: normal;
+  margin: 10px 15%;
+}
+
+.f-grow {
+  flex-grow: 1;
+}
+
+.flex-bottom-end {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}
+
+.flex-center {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+
+.border-round {
+  border-radius: 40px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+  ;
+}
+
+.m-20 {
+  margin: 20px;
+}
+.m-10-20 {
+  margin: 10px 20px;
+}
+
+.c-pointer{
+  cursor: pointer;
+}
